@@ -1,0 +1,14 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* test */
+    border: 1px red solid;
+}
+
+/* COMMON */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
