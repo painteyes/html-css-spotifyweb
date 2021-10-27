@@ -48,6 +48,11 @@ main > * {
 .main-nav{
     height: 100%;
     width: 250px;
+
+    min-height: 400px; 
+
+    display: flex;
+    flex-direction: column;
 }
 
 /* Logo */
@@ -70,9 +75,7 @@ main > * {
     font-size: small;
     font-weight: bold;
     color: white;
-    margin-bottom: 20px;
-
-    
+    margin-bottom: 20px;    
 }
 .nav-actions ul{
     list-style-type: none;
@@ -92,8 +95,9 @@ main > * {
 /* Playlist */
 .nav-playlist{
     padding: 0 20px;
-    margin-top: 20px;
     color: #a3a3a3 ;
+    overflow:hidden;
+    flex-grow: 1;
 }
 .nav-playlist h3{
     color:white;
@@ -110,9 +114,11 @@ main > * {
     font-size: 40px;
     padding-right: 10px;
 }
-.nav-playlist ul{
+.nav-playlist .playlist{
     list-style-type: none;
     margin-top: 15px;
+    height: 100%;
+    overflow-y: auto;
 }
 .nav-playlist li{
     padding-bottom: 15px;
@@ -123,12 +129,7 @@ main > * {
 .user {
     padding: 0 20px;
     font-size: small;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    color: #a3a3a3;
-
-  
+    font-weight: bold;  
 }
 .user .download-app img{
     width: 17px;
@@ -146,14 +147,14 @@ main > * {
     border-radius: 50%;
     margin-right: 10px;
 }
-
 .user .user-name {
     font-size: bold;
     padding-top: 10px;
+    color: white;
 }
-
 .user .download-app {
-    padding-bottom: 10px;
+    padding: 10px 0;
+    color: #a3a3a3;   
 }
 
 
@@ -198,6 +199,10 @@ main > * {
     .upgrade-bar{
         width: calc(100% - 50px);
     }
+
+    .logo{
+        padding: 0;
+    }
  
     #logo{
         display: none;  
@@ -205,6 +210,40 @@ main > * {
     #logo-small{
         display: block;
     }
+
+    .nav-actions li{
+        padding: 6px ;
+    }
+    .nav-actions li img{
+        width: 100%;
+    }
+    .nav-actions li span{
+        display: none ;
+    }
+
+    .nav-playlist h3,
+    .nav-playlist .new-playlist, 
+    .nav-playlist .playlist{
+        display: none;
+    }
+
+    .user{
+        padding:0;
+        text-align: center;
+    }
+
+    .user .download-app img,
+    .user .user-name img{
+        margin-right: 0;
+        padding:0;
+    }
+
+    .user .download-app span,
+    .user .delineator,
+    .user .user-name span{
+        display: none;
+    }
+
 
 
 
