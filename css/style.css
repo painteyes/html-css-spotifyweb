@@ -274,7 +274,7 @@ footer{
 /* Col left */
 .listening{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     font-weight: bold;
     padding: 10px;
 }
@@ -306,15 +306,12 @@ footer{
 .song-lists{
     color: white;
     margin-left: 15px;
-    display: flex;
-    align-items: center;
 }
-.song-lists :first-child {
-    margin-right: 5px;
+.song-lists * {
+    margin: 1px 5px;
 }
-.song-lists :last-child {
-    margin-left: 5px;
-}
+
+
 
 /* Col center */
 .player {
