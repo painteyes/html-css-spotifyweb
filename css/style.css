@@ -29,6 +29,19 @@ img{
     right: 0;
 }
 
+/* BUTTON */
+.upgrade-button{
+    color: white;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    position: fixed;
+    top: 20px;
+    right:15px;
+    font-size: small;
+    font-weight: bold;
+}
+
 /* MAIN */
 main{
     width: 100%;
