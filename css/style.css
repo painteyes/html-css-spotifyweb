@@ -254,27 +254,58 @@ footer{
     width: 100%;
     height: 100px;
     overflow: hidden;
-    /* background-color: #282828; */
+    background-color: #282828; 
     display: flex;
     justify-content: space-between;
 
-    /* test */
-    background-color: white;
 
 }
+
 .listening{
     display: flex;
-    font-size: small;
+    align-items: center;
     font-weight: bold;
-    
+    padding: 10px;
+}
+
+.song{
+    display: flex;
+    align-items: center;
+}
+.song-img{
+    width: 60px; 
+    margin-right: 5px;
+}
+.song-img img{ 
+    vertical-align: middle;    
+}
+.song-info{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.song-info #song-name{
+    font-size: small;
+    color: white
+}
+.song-info #band{
+    font-size: x-small;
+    color: #a3a3a3;
+}
+
+.icons{
+    color: white;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icons :first-child {
+    margin-right: 5px;
+}
+.icons :last-child {
+    margin-left: 5px;
 }
 
 
 
 
-
-
-.settings,
-.commands{
-    
-}
