@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* test */
-    border: 1px red solid; 
+    border: 1px red solid;  
 }
 
 /* COMMON */
@@ -70,7 +70,7 @@ main > * {
     font-size: small;
     font-weight: bold;
     color: white;
-    margin-bottom: 20px;    
+    margin: 20px 0;    
 }
 .nav-actions ul{
     list-style-type: none;
@@ -105,8 +105,8 @@ main > * {
     align-items: center;
     
 }
-.nav-playlist .new-playlist i{
-    font-size: 40px;
+.nav-playlist .new-playlist .fas{
+    font-size: 35px;
     padding-right: 10px;
 }
 .nav-playlist .playlist{
@@ -257,13 +257,24 @@ footer{
     background-color: #282828; 
     display: flex;
     justify-content: space-between;
-
-
 }
 
+/* Common class */
+.bar-below{
+    background-color: #a3a3a3;
+    border-radius: 50px;
+    height: 4px;
+    overflow: hidden;
+}
+.bar-above{
+    height: 100%;
+    background-color:white;
+}
+
+/* Col left */
 .listening{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     font-weight: bold;
     padding: 10px;
 }
@@ -292,20 +303,83 @@ footer{
     color: #a3a3a3;
 }
 
-.icons{
+.song-lists{
     color: white;
     margin-left: 15px;
     display: flex;
     align-items: center;
 }
-
-.icons :first-child {
+.song-lists :first-child {
     margin-right: 5px;
 }
-.icons :last-child {
+.song-lists :last-child {
     margin-left: 5px;
 }
 
+/* Col center */
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.player .main-commands{
+    color: white;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player .main-commands .fas{
+    font-size: 20px;      
+}
+.player .main-commands .far{
+    font-size: 30px; 
+    padding: 0 5px ;     
+}
+.player .main-commands * {
+    margin: 0 15px;
+}
+.player .timeline{
+    font-size: x-small;
+    color: white;
+    display: flex;
+    align-items: center;
+}
 
+.timeline{
+    margin: 0 20px;
+}
+.timeline .timeline-below {
+    width: 350px;
+}
+.timeline .timeline-above {
+    width: 30%;
+}
+
+/* Col right */
+.settings{
+    display: flex;
+    align-items: center;
+}
+.settings .secondary-commands{
+    color: #dcdcdc ;
+    font-size: small;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.settings .secondary-commands *{
+    margin: 10px;
+}
+
+.volume{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.volume .volume-below{
+    width: 100px;
+}
+.volume .volume-above{
+    width: 25%;
+}
 
 
