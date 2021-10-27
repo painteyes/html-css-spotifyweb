@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* test */
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 /* COMMON */
@@ -19,15 +19,23 @@ body{
     /* test */
     background-color: azure;
 }
+.upgrade-bar{
+    width: calc(100% - 250px);
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 
 /* MAIN */
 main{
     width: 100%;
     height: calc(100% - 100px);
-    overflow-y: scroll;
+    overflow: hidden;
     display: flex;
 }
-main > *{
+main > * {
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -38,10 +46,54 @@ main > *{
     width: 250px;
 }
 
+.logo{
+    height: 100px;
+}
+#logo{
+    width: 200px;
+    height: 100%; 
+    padding-left: 20px;
+
+}
+#logo-small{
+    width: 50px;
+    padding:  10px;
+    display: none;
+}
+
+.nav-actions{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+.nav-actions ul{
+    list-style-type: none;
+}
+.nav-actions li{
+    padding-left: 20px;
+}
+.nav-actions img{
+    width: 35px;
+    vertical-align: middle;
+    padding: 5px 0;
+}
+.nav-actions .active :hover {
+  border-left: 4px solid #9ee92b ;
+}
+.nav-actions .inactive{
+    margin-left: 4px ;
+} 
+
+
+
+
+
 /* Main content */
 .main-content{
     height: 100%;
     width: calc(100% - 250px);
+    overflow-y: auto;
+    padding-top: 100px;
 }
 
 
@@ -68,13 +120,27 @@ main > *{
     }
 
     .main-content{
-    height: 100%;
-    width: calc(100% - 50px);
+        height: 100%;
+        width: calc(100% - 50px);
     }
+
+    .upgrade-bar{
+        width: calc(100% - 50px);
+    }
+ 
+    #logo{
+        display: none;  
+    }
+    #logo-small{
+        display: block;
+    }
+
+
+
 
     /* test */
     .app-wrapper{
-        background-color:darkblue ;
+        background-color:darkturquoise ;
     }
 } 
 
