@@ -15,9 +15,10 @@ body{
 .app-wrapper{
     width: 100%;
     height: 100vh;
+    background-color: yellowgreen;
 
     /* test */
-    background-color: azure;
+    /* background-color: azure; */
 }
 .upgrade-bar{
     width: calc(100% - 250px);
@@ -44,15 +45,19 @@ main > * {
 .main-nav{
     height: 100%;
     width: 250px;
+
+    /* test
+    padding-left: 20px; */
 }
 
+/* Logo */
 .logo{
     height: 100px;
 }
 #logo{
     width: 200px;
     height: 100%; 
-    padding-left: 20px;
+    padding-left: 20px; 
 
 }
 #logo-small{
@@ -61,6 +66,7 @@ main > * {
     display: none;
 }
 
+/* Actions */
 .nav-actions{
     font-size: small;
     font-weight: bold;
@@ -77,12 +83,20 @@ main > * {
     vertical-align: middle;
     padding: 5px 0;
 }
-.nav-actions .active :hover {
+.nav-actions li:hover{
   border-left: 4px solid #9ee92b ;
 }
-.nav-actions .inactive{
-    margin-left: 4px ;
-} 
+
+/* Playlist */
+.nav-playlist{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.nav-playlist h3{
+    color:white;
+    font-size: 16px;
+
+}
 
 
 
