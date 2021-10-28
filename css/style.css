@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* test */
-    /* border: 1px red solid; */
+    border: 1px red solid;  
 }
 
 /* COMMON */
@@ -281,7 +281,7 @@ main > * {
     height: 150px; */
 }
 
-
+.row-3 img{max-height: 300px;}
 
 .cover .cover-img:hover{
     filter: grayscale(0.5)
