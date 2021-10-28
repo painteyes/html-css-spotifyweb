@@ -195,49 +195,141 @@ main > * {
 
 /* Row */
 .row{
-    display: flex;
-    flex-direction: column;
+    margin: 0 20px;
+    
 }
-.row h3{
+
+.row .row-title{
     color: white;
+    font-size: x-large;
+}
+.row .row-subtitle{
+    color:#a3a3a3;
+    font-size:x-small ;
+}
+
+
+.row-content{
+    margin: 20px 0 ;
+    
+    display: flex;
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+}
+.row-content > * {
+    
+    height: 100%;
+    /* width: calc(100% /6); */
+     
+    
+    
+
+
+    /* display: flex; */
+    
 }
 
 /* Cover */
 .cover {
-    display: flex;
-    flex-wrap: wrap;
-}
-.cover .cover-img{
-    width: 100px;
-    height: 100px;
-    background-size:cover;
-}
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;  */
+    padding: 0 20px;
 
-.cover .cover-img :hover{
+    /* height: 100%; */
+
+    
+    
+    
+    
+    
+    
     
 }
+.cover .cover-img{
+    /* flex-grow: 0; */
+    
+
+   
+    
+    
+    vertical-align: middle;
+    
+    
+
+
+    background-size:contain;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+
+    /* test */
+    /* width: 150px;
+    height: 150px; */
+}
 
 
 
+.cover .cover-img:hover{
+    filter: grayscale()
+}
 
-.cover-info .title{
+
+.cover .cover-img .far{
     color: white;
-    font-size: small;
+
+    
+    display: none; 
+   
+    /* test */
+    font-size: 100px;
+
+}
+
+.cover-img img{
+    vertical-align: middle;
+}
+
+
+.cover-info{
+   
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.cover-info .cover-title{
+    color: white;
     font-weight: bold;
 }
 
-.cover-info .subtitle{
+.cover-info .cover-subtitle{
     color: #dcdcdc;
     font-size: x-small;
 }
 
 /* Cover images */
-.heavy-metal .cover . cover-img{
+/* .heavy-metal .cover .cover-img{
     background-image: url("../img/metal_lifting.jpg");
 }
 .stranger-things .cover .cover-img{
     background-image: url("../img/stranger.jpeg");
 }
+.quite-place .cover .cover-img{
+    background-image: url("../img/aquietplace.jpeg");
+}
+.split .cover .cover-img{
+    background-image: url("../img/split.jpeg");
+}
+.cure-for-wellness .cover .cover-img{
+    background-image: url("../img/cure.jpeg");
+}
+.sinister .cover .cover-img{
+    background-image: url("../img/sinister.jpeg");
+} */
 
 
 
