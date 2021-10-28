@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* test */
-    border: 1px red solid;   
+    /* border: 1px red solid;    */
 }
 
 /* COMMON */
@@ -41,6 +41,9 @@ img{
     font-size: small;
     font-weight: bold;
 }
+.upgrade-button:hover{
+    transform: scale(1.1); 
+}
 
 /* MAIN */
 main{
@@ -67,13 +70,12 @@ main > * {
 .logo{
     min-height: 100px;
     padding: 0 20px;
+    color: white;
 }
 #logo{
     /* width: 100%; */
     height: 100%; 
     vertical-align: middle;
-   
-
 }
 #logo-small{
     width: 50px;
@@ -85,7 +87,7 @@ main > * {
 .nav-actions{
     font-size: small;
     font-weight: bold;
-    color: white;
+    color:#dcdcdc;
     margin: 20px 0; 
 }
 .nav-actions ul{
@@ -101,6 +103,7 @@ main > * {
 }
 .nav-actions li:hover{
   border-left: 4px solid #9ee92b ;
+  color: white;
 }
 
 /* Playlist */
@@ -124,6 +127,9 @@ main > * {
     font-size: 35px;
     padding-right: 10px;
 }
+.nav-playlist .new-playlist:hover{
+    color: white;
+}
 .nav-playlist .playlist{
     list-style-type: none;
     margin-top: 15px;
@@ -134,6 +140,9 @@ main > * {
 .nav-playlist li{
     padding-bottom: 15px;
     font-size: small;
+}
+.nav-playlist li:hover{
+    color: white;
 }
 
 /* Playlist */
@@ -167,6 +176,9 @@ main > * {
     padding: 10px 0;
     color: #dcdcdc;   
 }
+.user .download-app:hover{
+    color: white;
+}
 
 /* Main content */
 .main-content{
@@ -188,10 +200,11 @@ main > * {
     flex-wrap: wrap;
 }
 .content-category > *{
-    margin: 10px 10px 15px;
+    margin: 20px 10px;
 }
 .content-category li:hover{
     border-bottom: 4px solid #9ee92b ;
+    color: white;
 }
 
 /* Row */
@@ -216,12 +229,13 @@ main > * {
     display: flex;
     /* justify-content: flex-start;  */
     flex-wrap: wrap; 
+    /* gap: 5% ; */
 }
 .row-content > * {
     
     /* height: 100%; */
-    width: calc((100% / 6) - 20px); 
-    margin: 0 10px;
+    /* width: calc((100% / 6) - 20px);  */
+    /* margin-right: 20px; */
      
     
     
