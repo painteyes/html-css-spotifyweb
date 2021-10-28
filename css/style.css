@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* test */
-    /* border: 1px red solid;    */
+    /* border: 1px red solid; */
 }
 
 /* COMMON */
@@ -14,7 +14,7 @@ body{
 }
 img{
     width: 100%;
-} 
+}  
 .app-wrapper{
     width: 100%;
     height: 100vh;
@@ -209,7 +209,7 @@ main > * {
 
 /* Row */
 .row{
-    margin: 0 20px;
+    margin: 20px;
     
 }
 
@@ -224,11 +224,11 @@ main > * {
 
 
 .row-content{
-    margin: 15px 0 30px ;
+    margin-top: 15px;
     
     display: flex;
-    /* justify-content: flex-start;  */
-    flex-wrap: wrap; 
+    justify-content: space-between; 
+    /* flex-wrap: wrap;  */
     /* gap: 5% ; */
 }
 .row-content > * {
@@ -247,21 +247,7 @@ main > * {
 
 /* Cover */
 .cover {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;   */
-   
-
-    /* height: 100%; */
-
-    
-    
-    
-    
-    
-    
-    
+    margin: 20px 2% 0;  
 }
 
 
@@ -315,12 +301,10 @@ main > * {
     border-radius: 50%;
 }
 
-
-
 .cover-info{
-   
-    max-width: 80%;
-    margin: auto;
+    width: 80%;
+    max-width: 250px;
+    margin: 10px auto;
     text-align: center;
 }
 
