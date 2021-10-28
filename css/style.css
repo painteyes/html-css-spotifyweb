@@ -227,7 +227,7 @@ main > * {
     margin-top: 15px;
     
     display: flex;
-    justify-content: space-between; 
+     
     /* flex-wrap: wrap;  */
     /* gap: 5% ; */
 }
@@ -244,6 +244,12 @@ main > * {
     /* display: flex; */
     
 }
+
+.row-1 .row-content{
+    justify-content: space-between;
+}
+
+
 
 /* Cover */
 .cover {
