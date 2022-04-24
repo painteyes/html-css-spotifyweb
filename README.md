@@ -5,7 +5,7 @@ Spotify Web-inspired webapp with responsive layout and playback bar. Check out t
 - HTML
 - CSS
 
-## Screenshots
+## Screenshot
 <img src="https://i.postimg.cc/RZP3KQLj/Spotify-Web.png"/>
 
 ## Contributor
