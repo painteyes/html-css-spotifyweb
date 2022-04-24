@@ -9,7 +9,7 @@ Spotify Web-inspired webapp with responsive layout and playback bar.
 
 ## Screenshots
 
-![alt text](/screenshots/app.png "App")
+![alt text](/Screenshots/app.png "App")
 
 ## Contributor
 
