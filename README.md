@@ -1,4 +1,4 @@
-## About project
+## About the project
 Spotify Web-inspired webapp with responsive layout and playback bar.
 
 ## Technologies 
@@ -6,6 +6,8 @@ Spotify Web-inspired webapp with responsive layout and playback bar.
 - CSS
 
 ## Screenshots
+
+https://postimg.cc/sMhDRW8c
 
 
 ## Contributor
