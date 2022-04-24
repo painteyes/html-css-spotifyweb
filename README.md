@@ -12,4 +12,4 @@ Spotify-inspired web design with responsive layout.
 <img src="https://i.postimg.cc/RZP3KQLj/Spotify-Web.png"/>
 
 ## Contributor
-- Andrea Occhipinti ( [GitHub](https://github.com/painteyes) | [Linkedin](https://www.linkedin.com/in/occhipinti) )
+Andrea Occhipinti ( [GitHub](https://github.com/painteyes) | [Linkedin](https://www.linkedin.com/in/occhipinti) )
