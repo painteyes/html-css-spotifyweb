@@ -1,12 +1,12 @@
 ## About project
 Spotify Web-inspired webapp with responsive layout and playback bar.
 
-## Technologies
+## Technologies 
 - HTML
 - CSS
 
 ## Screenshots
 
 
-## Connect with me
-[Linkedin](https://www.linkedin.com/in/occhipinti) 
+## Contributor
+Andrea Occhipinti [GitHub](https://github.com/painteyes) | [Linkedin](https://www.linkedin.com/in/occhipinti) 
