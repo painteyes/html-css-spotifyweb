@@ -1,5 +1,5 @@
 ## About the project
-Spotify Web-inspired webapp with responsive layout. Check out the **[live demo](painteyes.github.io/html-css-spotifyweb) !
+Spotify Web-inspired webapp with responsive layout. Check out the **[live demo](painteyes.github.io/html-css-spotifyweb)** !
 
 ## Technologies 
 - HTML
