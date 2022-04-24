@@ -6,7 +6,7 @@ Spotify-inspired web design with responsive layout.
 - CSS
 
 ## Screenshot
-Live Demo: **[painteyes/html-css-spotifyweb](https://painteyes.github.io/html-css-spotifyweb)**
+**[painteyes/html-css-spotifyweb](https://painteyes.github.io/html-css-spotifyweb)**
 
 <img src="https://i.postimg.cc/RZP3KQLj/Spotify-Web.png"/>
 
