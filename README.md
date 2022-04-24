@@ -11,6 +11,8 @@ Spotify Web-inspired webapp with responsive layout and playback bar.
 
 ![alt text](/Screenshots/app.png "App")
 
+![Alt text](/Screenshots/app.png?raw=true "home")
+
 ## Contributor
 
 - Andrea Occhipinti ( [GitHub](https://github.com/painteyes) | [Linkedin](https://www.linkedin.com/in/occhipinti) )
