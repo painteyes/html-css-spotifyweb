@@ -1,5 +1,5 @@
 ## About the project
-Spotify-inspired web design with responsive layout.
+Spotify webapp inspired design with responsive layout.
 
 ## Technologies 
 - HTML
