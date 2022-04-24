@@ -1,9 +1,12 @@
 ## About project
 Spotify Web-inspired webapp with responsive layout and playback bar.
 
-## Screenshhot
-
+## Technologies
 - HTML
 - CSS
 
-## Screenshhot
+## Screenshots
+
+
+## Connect with me
+[Linkedin](https://www.linkedin.com/in/occhipinti) 
